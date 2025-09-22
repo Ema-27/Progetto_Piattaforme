@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ecommerce-product-apis
+  datasource:
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://mysql:3306/progetto?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  compression:
+    enabled: 'true'
+  port: '8080'

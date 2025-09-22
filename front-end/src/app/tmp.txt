@@ -1,0 +1,8 @@
+<h1>Bottega della musica</h1>
+<div class="prodotti">
+  <div *ngFor="let product of products">
+    <h2>{{product.name}}</h2>
+    <img src="{{product.imageURL}}" alt="Immagine prodotto" title="Prodotto">
+    <button onclick="">Aggiungi al carrello</button>
+  </div>
+</div>
