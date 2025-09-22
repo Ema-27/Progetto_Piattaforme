@@ -22,8 +22,9 @@ A full-stack e-commerce platform built with modern web technologies.
 - [🛠️ Seeding initial data](#️-seeding-initial-data)
 - [⚙️ Development tips](#️-development-tips)
 - [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
 - [📋Contatti](#-contact)
+- [📝 License](#-license)
+
 ---
 
 ## ✨ Overview
@@ -69,9 +70,9 @@ Il modo più semplice per avviare l'intero progetto è tramite Docker Compose:
     ```
 3. **Avvia tutti i servizi:**
    
-  ```sh
-  docker compose up --build
-  ```
+    ```sh
+    docker compose up --build
+    ```
 
 Questo comando:
 - 🏗️ costruisce l'immagine del backend (il Dockerfile effettua il `mvn package`)
@@ -142,11 +143,10 @@ Per avere dati di esempio all'avvio hai due opzioni integrate nel progetto:
 1. DataSeeder (Java) — raccomandato:
    - classe `DataSeeder` che esegue insert solo se i record non esistono.
    - funziona con `spring.jpa.hibernate.ddl-auto=update`.
-   - migliore affidabilità rispetto a `data.sql`.
 
 2. Utilizzo di strumenti API
-  - Postman, curl, o altri client REST
-  - Inserimento manuale tramite endpoint
+    - Postman, curl, o altri client REST
+    - Inserimento manuale tramite endpoint
     
 Esempio di come verificare i dati:
 - GET /categories
@@ -178,7 +178,7 @@ Se vuoi contribuire:
 
 ---
 
-### Contact
+## 📋 Contact
 - Author: Ema-27
 - Repository: https://github.com/Ema-27/Progetto_Piattaforme
 
